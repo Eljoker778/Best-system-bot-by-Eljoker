@@ -173,12 +173,12 @@ if (message.content.startsWith(prefix + 'help')) { /// This is The DMS Code Send
 
     message.author.sendEmbed(embed).then(msg => {
 
-        msg.react('?').then( r => {
-            msg.react('?')
+        msg.react(':arrow_backward:').then( r => {
+            msg.react(':arrow_forward:')
 
 
-        const backwardsFilter = (reaction, user) => reaction.emoji.name === '?' && user.id === message.author.id;
-        const forwardsFilter = (reaction, user) => reaction.emoji.name === '?' && user.id === message.author.id;
+        const backwardsFilter = (reaction, user) => reaction.emoji.name === ':arrow_backward:' && user.id === message.author.id;
+        const forwardsFilter = (reaction, user) => reaction.emoji.name === ':arrow_forward:' && user.id === message.author.id;
 
 
         const backwards = msg.createReactionCollector(backwardsFilter, { time: 2000000});
