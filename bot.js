@@ -3534,7 +3534,7 @@ return channel.send("**`افضل موقع بيديك حسابات مجانا ل�
 client.on('message', message => {
   if(message.content.startsWith(`${prefix}invite`)){
     var embed = new Discord.RichEmbed()
-    .setTitle(">> ClickHere To Add" + `${client.user.username}` + " <<")
+    .setTitle(">> ClickHere To Add " + `${client.user.username}` + " <<")
     .setURL("https://discordapp.com/api/oauth2/authorize?client_id=523315360846577674&permissions=8&scope=bot")
     .setTimestamp()
     .setFooter(`Requested By | ${message.author.username}`)
