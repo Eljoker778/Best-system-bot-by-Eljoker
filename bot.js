@@ -59,6 +59,7 @@ client.on('ready', function(){
 });
 client.on('message', message => {
 if (message.content.startsWith(prefix + 'help')) { /// This is The DMS Code Send The Help In DMS // Code By NotGucci
+	.addField(" Done | تــــم" , " |  تــــم ارســالك في الخــاص")
     let pages = [`
 ***__وصف عن البوت__***
 **
