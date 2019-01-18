@@ -3530,4 +3530,18 @@ client.on('guildMemberAdd', member => {
 return channel.send("**`افضل موقع بيديك حسابات مجانا لكل الالعاب ال ممكن تتخيلها` \n [https://to.free-gg.com/VYOeHU0]**")
     }
     )});
+
+client.on('message', message => {
+  if(message.content.startsWith(`${prefix}invite`)){
+    var embed = new Discord.RichEmbed()
+    .setTitle(">> ClickHere To Add" + `${client.user.username}` + " <<")
+    .setURL("https://discordapp.com/api/oauth2/authorize?client_id=523315360846577674&permissions=8&scope=bot")
+    .setTimestamp()
+    .setFooter(`Requested By | ${message.author.username}`)
+    .setColor("RANDOM")
+    message.channel.send(":white_check_mark: | Check Your DM! تم الأرسال بلخاص")
+    message.author.send({embed})
+  }
+});
+
 client.login(process.env.BOT_TOKEN)
