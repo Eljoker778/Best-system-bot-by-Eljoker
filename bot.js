@@ -68,35 +68,35 @@ if (message.content.startsWith(prefix + 'help')) { /// This is The DMS Code Send
 **
         ***__General orders__***
 **
-?${prefix}allbots/لعرض جميع البوتات الي بالسيرفر?
-?${prefix}server/يعرض لك معلومات عن السيرفر?
-?${prefix}bot/يعرض لك كل معلومات البوت?
-?${prefix}count/يعرض لك عدد الاشخاص بالسيرفر بدون بوتات?
-?${prefix}invites/ يعرض لك  عدد انفايتاتك بالسيرفر ?
-?${prefix}invinfo <invitelink here> / لمعلومات عن الدعوه?
+${prefix}allbots/لعرض جميع البوتات الي بالسيرفر
+${prefix}server/يعرض لك معلومات عن السيرفر
+${prefix}bot/يعرض لك كل معلومات البوت
+${prefix}count/يعرض لك عدد الاشخاص بالسيرفر بدون بوتات
+${prefix}invites/ يعرض لك  عدد انفايتاتك بالسيرفر 
+${prefix}invinfo <invitelink here> / لمعلومات عن الدعوه
 ? مثال : invinfo m82n8P
-?${prefix}invite-codes/يعرض لك روابط الانفايتات حكك في السيرفر ?
-?${prefix}cal/اله حاسبة? 
-?${prefix}trans <language> <any thing>/يترجم لك الي تبيه من اي لغة?
-?${prefix}short/يختصر لك رابط كبير الى رابط صغير?
-?${prefix}tag/يكتب لك الكلمة بشكل جميل وكبير?
-?${prefix}google/للبحث في قوقل عن طريق الدسكورد?
-?${prefix}perms/يعرض لك برمشناتك بالسيرفر?
-?${prefix}z5rf/يزخرف لك كلمة او جملة?
-?${prefix}rooms/يعرض لك كل الرومات الي بالسيرفر مع عددها?
-?${prefix}roles/يعرض لك كل الرانكات بالسيرفر بشكل جميل?
-?${prefix}emojilist/يعرض لك كل الايموجيات الي بالسيرفر?
-?${prefix}say/يكرر الكلام الي تكتبو?
-?${prefix}image/صورة السيرفر?
-?${prefix}members/عرض لك عدد كل حالات الاشخاص وعدد البوتات وعدد الاشخاص?
-?${prefix}id/معلومات عنك?
-?${prefix}bans / عدد الاشخاص المبندة ?
-?${prefix}avatar/صورتك او صورة الي تمنشنو?
-?${prefix}embed/يكرر الي تقولو بشكل حلو? 
-?${prefix}emoji <any things>/لتحويل اي كلمه تقولها الي ايموجي?
-?${prefix}inv/لدعوة البوت الى سيرفرك?
-?${prefix}support/سيرفر الدعم?
-?${prefix}contact/ارسال اقتراح او لمراسلة صاحب البوت?
+${prefix}invite-codes/يعرض لك روابط الانفايتات حكك في السيرفر 
+${prefix}cal/اله حاسبة 
+${prefix}trans <language> <any thing>/يترجم لك الي تبيه من اي لغة
+${prefix}short/يختصر لك رابط كبير الى رابط صغير
+${prefix}tag/يكتب لك الكلمة بشكل جميل وكبير
+${prefix}google/للبحث في قوقل عن طريق الدسكورد
+${prefix}perms/يعرض لك برمشناتك بالسيرفر
+${prefix}z5rf/يزخرف لك كلمة او جملة
+${prefix}rooms/يعرض لك كل الرومات الي بالسيرفر مع عددها
+${prefix}roles/يعرض لك كل الرانكات بالسيرفر بشكل جميل
+${prefix}emojilist/يعرض لك كل الايموجيات الي بالسيرفر
+${prefix}say/يكرر الكلام الي تكتبو
+${prefix}image/صورة السيرفر
+${prefix}members/عرض لك عدد كل حالات الاشخاص وعدد البوتات وعدد الاشخاص
+${prefix}id/معلومات عنك
+${prefix}bans / عدد الاشخاص المبندة 
+${prefix}avatar/صورتك او صورة الي تمنشنو
+${prefix}embed/يكرر الي تقولو بأمبد
+${prefix}emoji <any things>/لتحويل اي كلمه تقولها الي ايموجي
+${prefix}inv/لدعوة البوت الى سيرفرك
+${prefix}support/سيرفر الدعم
+${prefix}contact/ارسال اقتراح او لمراسلة صاحب البوت
 **
   `
 ,`
@@ -312,7 +312,7 @@ client.on('message', function(msg) {
             .addField('``My ID``' , `[ ${client.user.id} ]` , true)
 			      .addField('``My Prefix``' , `[ ! ]` , true)
 			      .addField('``My Language``' , `[ Java Script ]` , true)
-			      .setFooter('By | Baron')
+			      .setFooter('By | Eljoker')
     })
 }
 });
