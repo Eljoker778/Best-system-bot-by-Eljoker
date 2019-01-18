@@ -162,7 +162,10 @@ ${prefix}contact/ارسال اقتراح او لمراسلة صاحب البوت
 ?G.setwelcomer <text channel name> لاختيار روم للترحيب?
 ?${prefix}voiceonline / لتفعيل روم الفويس اونلاين?
 **
-   
+
+.addField(" Done | تــــم" , " |  تــــم ارســالك في الخــاص")
+
+  
 `]
     let page = 1;
 
